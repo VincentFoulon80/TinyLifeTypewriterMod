@@ -58,7 +58,7 @@ public class Typewriter : Furniture {
 
     // ensures only the "WriteBook" actions are displayed when appropriate
     public override CanExecuteResult CanExecuteAction(ActionType action, ActionInfo info, bool automatic, bool isAuxiliary) {
-        if (action.Settings.Name.Contains("WriteBook")) {
+        if (action.Settings.Name.Contains("WriteBook") || (action.Settings.Name.Contains("Writing") && action.Settings.Name.Contains("Practice"))) {
             return base.CanExecuteAction(action, info, automatic, isAuxiliary);
         }
 
