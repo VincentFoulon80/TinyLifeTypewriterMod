@@ -1,0 +1,35 @@
+TypewriterMod.TypewriterUp
+loc 3 44 28 21
+piv 17 54
+
+TypewriterMod.TypewriterDown
+loc 3 105 27 24
+piv 17 118
+
+TypewriterMod.TypewriterLeft
+loc 3 172 28 21
+piv 17 182
+
+TypewriterMod.TypewriterRight
+loc 4 233 27 24
+piv 17 246
+
+TypewriterMod.PenAndPaperUp
+loc 3 44 28 21
+piv 17 54
+off 34 0
+
+TypewriterMod.PenAndPaperDown
+loc 3 105 27 24
+piv 17 118
+off 34 0
+
+TypewriterMod.PenAndPaperLeft
+loc 3 172 28 21
+piv 17 182
+off 34 0
+
+TypewriterMod.PenAndPaperRight
+loc 4 233 27 24
+piv 17 246
+off 34 0
