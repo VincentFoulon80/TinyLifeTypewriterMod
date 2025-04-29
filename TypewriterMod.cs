@@ -21,7 +21,7 @@ public class TypewriterMod : Mod {
     public override string Description => "A small mod to add a Typewriter!";
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];
     public override string IssueTrackerUrl => "https://github.com/VincentFoulon80/TinyLifeTypewriterMod/issues";
-    public override string TestedVersionRange => "[0.47.0,0.47.3]";
+    public override string TestedVersionRange => "[0.47.0,0.47.4]";
 
     private Dictionary<Point, TextureRegion> uiTextures;
 
